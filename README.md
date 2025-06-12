@@ -60,7 +60,7 @@ Users can:
 
 Agents use GraphQL or API to query:
 
-> “Top complaints about Apple products from Gen Z females in California (last 30 days)?”
+> "Top complaints about Apple products from Gen Z females in California (last 30 days)?"
 
 - Pays per-record in **x402 tokens**
 - Returns analysis, reports, design insights
@@ -100,5 +100,59 @@ Agents use GraphQL or API to query:
 - Currency: `USDC`
 - Earn: Contributors get paid per record access
 - Spend: AI agents pay to access structured feedback data
+
+---
+
+# DataGram
+
+A Next.js project with TypeScript and Tailwind CSS.
+
+## Prerequisites
+
+- Node.js (Latest LTS version recommended)
+- npm (Latest version recommended)
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd DataGram
+```
+
+2. Install dependencies:
+```bash
+npm install --legacy-peer-deps
+```
+> Note: We use `--legacy-peer-deps` flag to resolve dependency conflicts between `date-fns` and `react-day-picker`.
+
+## Running the Project
+
+1. Start the development server:
+```bash
+npm run dev
+```
+
+2. Open your browser and navigate to:
+- Local: http://localhost:3000
+- Network: http://192.168.1.138:3000 (or your local network IP)
+
+The development server includes hot-reloading, so any changes you make to the code will be automatically reflected in the browser.
+
+## Available Scripts
+
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check for code issues
+
+## Tech Stack
+
+- Next.js 15.2.4
+- React 19
+- TypeScript
+- Tailwind CSS
+- Radix UI Components
+- Various UI utilities and components
 
 ---
