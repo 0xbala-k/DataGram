@@ -1,4 +1,4 @@
-import { ArrowRight, BarChart3, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles } from "lucide-react"
+import { ArrowRight, BarChart3, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles, Database } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -18,10 +18,10 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="p-2 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg">
-              <BarChart3 className="h-6 w-6 text-white" />
+              <Database className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-              MarketRAG
+              DataGram
             </span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -75,7 +75,7 @@ export default function LandingPage() {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg px-8 py-4 border-gray-700 text-gray-300 hover:bg-gray-900 hover:text-white hover:border-gray-600"
+              className="text-lg px-8 py-4 border-2 border-gray-700 text-white bg-gray-900/50 hover:bg-gray-800/90 hover:border-gray-600 hover:text-white transition-colors"
             >
               Access Data API
             </Button>
@@ -279,7 +279,7 @@ export default function LandingPage() {
       <section id="use-cases" className="relative py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-20">
-            <h2 className="text-4xl font-bold text-white mb-6">Who Uses MarketRAG</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Who Uses DataGram</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               From consumer brands to VCs, our platform serves diverse AI-powered use cases
             </p>
@@ -362,7 +362,7 @@ export default function LandingPage() {
             <Button
               size="lg"
               variant="outline"
-              className="text-lg px-10 py-4 border-gray-700 text-gray-300 hover:bg-gray-900 hover:text-white hover:border-gray-600"
+              className="text-lg px-10 py-4 border-2 border-gray-700 text-white bg-gray-900/50 hover:bg-gray-800/90 hover:border-gray-600 hover:text-white transition-colors"
             >
               Explore API Access
             </Button>
@@ -377,10 +377,10 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="p-2 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg">
-                  <BarChart3 className="h-5 w-5 text-white" />
+                  <Database className="h-5 w-5 text-white" />
                 </div>
                 <span className="text-lg font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                  MarketRAG
+                  DataGram
                 </span>
               </div>
               <p className="text-gray-400">
@@ -449,7 +449,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 MarketRAG. All rights reserved.</p>
+            <p>&copy; 2024 DataGram. All rights reserved.</p>
           </div>
         </div>
       </footer>
