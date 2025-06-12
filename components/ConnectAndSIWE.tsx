@@ -69,6 +69,7 @@ export function ConnectAndSIWE() {
   return (
     <div className="flex flex-col items-center gap-4 p-6">
       <button
+        data-connect-button
         onClick={() => connect({ connector: cbWalletConnector })}
         className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white rounded-lg font-medium transition-colors duration-200 shadow-sm hover:shadow-md"
       >

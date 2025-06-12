@@ -1,10 +1,22 @@
+"use client";
+
 import { ArrowRight, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles, Database } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ConnectAndSIWE } from '../components/ConnectAndSIWE'
+import { useRouter } from "next/navigation"
 
 export default function LandingPage() {
+  const router = useRouter();
+
+  const handleStartContributing = () => {
+    const connectButton = document.querySelector('[data-connect-button]');
+    if (connectButton instanceof HTMLElement) {
+      connectButton.click();
+    }
+  };
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Animated background */}
@@ -64,6 +76,7 @@ export default function LandingPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
               size="lg"
+              onClick={handleStartContributing}
               className="text-lg px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0 shadow-lg shadow-cyan-500/25"
             >
               Start Contributing <ArrowRight className="ml-2 h-5 w-5" />
@@ -351,6 +364,7 @@ export default function LandingPage() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button
               size="lg"
+              onClick={handleStartContributing}
               className="text-lg px-10 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0 shadow-lg shadow-cyan-500/25"
             >
               Start Contributing Today
