@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowRight, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles, Database } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -38,6 +39,15 @@ export default function LandingPage() {
             </span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
+          <Link href="/submit-bug" className="text-gray-300 hover:text-cyan-400 transition-colors">
+            Submit Bug
+          </Link>
+          <Link href="/solve-bug" className="text-gray-300 hover:text-cyan-400 transition-colors">
+            Solve Bug
+          </Link>
+          <Link href="/ask" className="text-gray-300 hover:text-cyan-400 transition-colors">
+            Ask AI
+          </Link>
             <a href="#how-it-works" className="text-gray-300 hover:text-cyan-400 transition-colors">
               How it Works
             </a>
