@@ -1,7 +1,8 @@
-import { ArrowRight, BarChart3, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles, Database } from "lucide-react"
+import { ArrowRight, Brain, DollarSign, Globe, Shield, TrendingUp, Users, Zap, Sparkles, Database } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { ConnectAndSIWE } from '../components/ConnectAndSIWE'
 
 export default function LandingPage() {
   return (
@@ -15,7 +16,7 @@ export default function LandingPage() {
 
       {/* Header */}
       <header className="relative border-b border-gray-800 bg-black/90 backdrop-blur-xl sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+        <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="p-2 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg">
               <Database className="h-6 w-6 text-white" />
@@ -36,12 +37,7 @@ export default function LandingPage() {
             </a>
           </nav>
           <div className="flex items-center space-x-3">
-            <Button variant="ghost" className="text-gray-300 hover:text-white hover:bg-gray-900">
-              Sign In
-            </Button>
-            <Button className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0">
-              Get Started
-            </Button>
+            <ConnectAndSIWE />
           </div>
         </div>
       </header>
