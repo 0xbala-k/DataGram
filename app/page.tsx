@@ -69,19 +69,18 @@ export default function LandingPage() {
         <div className="container mx-auto text-center max-w-5xl">
           <Badge className="mb-6 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 text-cyan-300 border-cyan-500/20 hover:bg-gradient-to-r hover:from-cyan-500/20 hover:to-blue-500/20">
             <Sparkles className="w-4 h-4 mr-2" />
-            Revolutionizing Market Research
+            Composable Data Infrastructure for LLM Agents
           </Badge>
           <h1 className="text-6xl md:text-7xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-white via-gray-100 to-gray-300 bg-clip-text text-transparent">
-              Decentralized Market Research for{" "}
+              Monetized RAG Platform for{' '}
             </span>
             <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
               AI Agents
             </span>
           </h1>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Transform market research from expensive, slow, and biased to instant, affordable, and comprehensive.
-            Contributors earn from their insights while AI agents access real-time consumer data.
+            Instantly access and monetize high-quality, user-contributed datasets. Pay-per-query RAGs, transparent revenue sharing, and agent-native APIs for the next generation of LLM-powered applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button
@@ -106,19 +105,19 @@ export default function LandingPage() {
               <div className="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent mb-2">
                 $0.005
               </div>
-              <div className="text-gray-400">Per data access</div>
+              <div className="text-gray-400">Per data access (pay-per-query)</div>
             </div>
             <div className="p-6 rounded-2xl bg-gray-900/60 backdrop-blur-sm border border-gray-800">
               <div className="text-4xl font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent mb-2">
-                10x
+                Revenue
               </div>
-              <div className="text-gray-400">Faster than traditional research</div>
+              <div className="text-gray-400">Contributors earn per data usage</div>
             </div>
             <div className="p-6 rounded-2xl bg-gray-900/60 backdrop-blur-sm border border-gray-800">
               <div className="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">
                 100%
               </div>
-              <div className="text-gray-400">Transparent earnings</div>
+              <div className="text-gray-400">Transparent earnings & dashboards</div>
             </div>
           </div>
         </div>
@@ -129,15 +128,15 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-white mb-8">Traditional Market Research is Broken</h2>
+              <h2 className="text-4xl font-bold text-white mb-8">The Data Bottleneck for AI Agents</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-red-500/10 border border-red-500/20 rounded-full flex items-center justify-center mt-1">
                     <span className="text-red-400 text-sm">✕</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Expensive</h3>
-                    <p className="text-gray-300">Analyst-driven studies cost $10K+ per research project</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">High-Quality Data is Locked</h3>
+                    <p className="text-gray-300">Specialized, up-to-date datasets are not openly available for LLM agents.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -145,8 +144,8 @@ export default function LandingPage() {
                     <span className="text-red-400 text-sm">✕</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Slow</h3>
-                    <p className="text-gray-300">Takes weeks to collect and analyze meaningful data</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">No Incentive to Share</h3>
+                    <p className="text-gray-300">Data creators lack a native, transparent way to earn from their contributions.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -154,22 +153,31 @@ export default function LandingPage() {
                     <span className="text-red-400 text-sm">✕</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Biased</h3>
-                    <p className="text-gray-300">Limited samples, often B2B-focused with narrow demographics</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">Static or Overpriced APIs</h3>
+                    <p className="text-gray-300">Current data APIs are inflexible, expensive, and not built for agent-native workflows.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-red-500/10 border border-red-500/20 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-red-400 text-sm">✕</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-white text-lg mb-2">No Revenue Sharing Loop</h3>
+                    <p className="text-gray-300">No automatic, transparent revenue split between data creators and consumers.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-white mb-8">Our Decentralized Solution</h2>
+              <h2 className="text-4xl font-bold text-white mb-8">Our Composable RAG Solution</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-green-500/10 border border-green-500/20 rounded-full flex items-center justify-center mt-1">
                     <span className="text-green-400 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Affordable</h3>
-                    <p className="text-gray-300">Micro-payments per data access, starting at $0.005</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">Composable Data Infrastructure</h3>
+                    <p className="text-gray-300">Upload, tag, and index structured datasets for agent-native retrieval and plug-and-play RAG workflows.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -177,8 +185,8 @@ export default function LandingPage() {
                     <span className="text-green-400 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Real-time</h3>
-                    <p className="text-gray-300">Instant access to fresh consumer insights and trends</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">Pay-per-Query, Transparent Revenue</h3>
+                    <p className="text-gray-300">AI agents pay per query; revenue is automatically split among contributors whose data is used.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -186,8 +194,17 @@ export default function LandingPage() {
                     <span className="text-green-400 text-sm">✓</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-white text-lg mb-2">Diverse</h3>
-                    <p className="text-gray-300">Global contributor network with varied demographics</p>
+                    <h3 className="font-semibold text-white text-lg mb-2">Agent-Native APIs</h3>
+                    <p className="text-gray-300">Built for LLMs and AI agents to access, pay, and analyze data autonomously.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-green-500/10 border border-green-500/20 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-green-400 text-sm">✓</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-white text-lg mb-2">Real-Time Dashboards</h3>
+                    <p className="text-gray-300">Contributors see usage, earnings, and can withdraw funds instantly.</p>
                   </div>
                 </div>
               </div>
@@ -199,10 +216,9 @@ export default function LandingPage() {
       {/* Architecture Diagram */}
       <section className="relative py-24">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">Platform Architecture</h2>
-          <p className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto">
-            See how our decentralized platform connects data contributors with AI agents through secure, transparent
-            micro-transactions.
+          <h2 className="text-4xl font-bold text-white mb-6">Monetized RAG Platform: Pay-per-Query, Revenue-Sharing, and Composable Data for AI Agents</h2>
+          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+            See how our composable, decentralized platform connects data contributors with AI agents through secure, transparent micro-transactions and a plug-and-play RAG interface.
           </p>
           <div className="max-w-5xl mx-auto">
             <div className="p-8 rounded-3xl bg-gray-900/40 backdrop-blur-sm border border-gray-800">
@@ -222,11 +238,11 @@ export default function LandingPage() {
           <div className="text-center mb-20">
             <h2 className="text-4xl font-bold text-white mb-6">How It Works</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              A simple three-step process that benefits both data contributors and AI agents
+              A simple four-step process that benefits both data contributors and AI agents
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-cyan-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-cyan-500/25">
@@ -236,58 +252,50 @@ export default function LandingPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300 text-base mb-6">
-                  Fill micro-surveys, submit product reviews, or share feedback. Data is automatically tagged and
-                  indexed for easy discovery.
+                  Upload structured or semi-structured datasets (CSV, JSON, logs, etc.). Tag your data for discoverability and revenue attribution.
                 </CardDescription>
-                <div className="p-4 bg-gray-800/60 rounded-xl text-sm border border-gray-700">
-                  <div className="text-cyan-400 font-semibold mb-2">Example:</div>
-                  <div className="text-gray-300 space-y-1">
-                    <div>Product: iPhone 15</div>
-                    <div>Likes: Camera quality</div>
-                    <div>Dislikes: Battery life</div>
-                    <div>Rating: 4/5</div>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
             <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-green-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-green-500/10">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-green-500/25">
-                  <Brain className="h-10 w-10 text-white" />
+                  <Database className="h-10 w-10 text-white" />
                 </div>
-                <CardTitle className="text-white text-xl">2. AI Agents Access</CardTitle>
+                <CardTitle className="text-white text-xl">2. Tag & Index</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300 text-base mb-6">
-                  AI agents query specific data sets using our API. They pay per record accessed, ensuring fair
-                  compensation for contributors.
+                  Data is normalized, tagged, and indexed for high-quality retrieval. Supports both semantic (vector) and keyword search.
                 </CardDescription>
-                <div className="p-4 bg-gray-800/60 rounded-xl text-sm border border-gray-700">
-                  <div className="text-green-400 font-semibold mb-2">Query:</div>
-                  <div className="text-gray-300">
-                    "Top complaints about Apple products from Gen Z in California, last 30 days"
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
             <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-purple-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/10">
               <CardHeader className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-purple-500/25">
-                  <DollarSign className="h-10 w-10 text-white" />
+                  <Brain className="h-10 w-10 text-white" />
                 </div>
-                <CardTitle className="text-white text-xl">3. Earn & Analyze</CardTitle>
+                <CardTitle className="text-white text-xl">3. Query & Pay</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300 text-base mb-6">
-                  Contributors receive micro-payments for each data access. AI agents generate insights, reports, and
-                  recommendations from the data.
+                  AI agents query the platform via RAG APIs. Each query incurs a micro-payment, split among contributors whose data is used.
                 </CardDescription>
-                <div className="p-4 bg-gray-800/60 rounded-xl text-sm border border-gray-700">
-                  <div className="text-purple-400 font-semibold mb-2">Output:</div>
-                  <div className="text-gray-300">"Battery performance is the #1 issue in West Coast markets"</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-yellow-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/10">
+              <CardHeader className="text-center">
+                <div className="w-20 h-20 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-yellow-500/25">
+                  <DollarSign className="h-10 w-10 text-white" />
                 </div>
+                <CardTitle className="text-white text-xl">4. Earn & Analyze</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-gray-300 text-base mb-6">
+                  Contributors receive real-time stats and payouts based on data usage. Dashboards show reads, earnings, and top tags.
+                </CardDescription>
               </CardContent>
             </Card>
           </div>
@@ -300,21 +308,21 @@ export default function LandingPage() {
           <div className="text-center mb-20">
             <h2 className="text-4xl font-bold text-white mb-6">Who Uses DataGram</h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              From consumer brands to VCs, our platform serves diverse AI-powered use cases
+              From legal research to fintech, our platform powers agent-native data access for a wide range of LLM applications
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-blue-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 group">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <TrendingUp className="h-6 w-6 text-white" />
+                  <Shield className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white text-lg">Consumer Brands</CardTitle>
+                <CardTitle className="text-white text-lg">Legal LLM</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300">
-                  Improve product messaging and advertising campaigns with real consumer sentiment data
+                  Retrieve jurisdiction-specific case records for legal research and compliance.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -324,11 +332,11 @@ export default function LandingPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Zap className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white text-lg">Product Teams</CardTitle>
+                <CardTitle className="text-white text-lg">Fintech AI</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300">
-                  Get raw, unfiltered customer feedback to guide product development decisions
+                  Access up-to-date token metrics and financial data from user-contributed sources.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -338,11 +346,11 @@ export default function LandingPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <Globe className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white text-lg">Trend Trackers</CardTitle>
+                <CardTitle className="text-white text-lg">Academic Research Bots</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300">
-                  Summarize market mood and emerging trends with weekly automated reports
+                  Query climate data, user experiments, and scientific datasets for research.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -350,13 +358,27 @@ export default function LandingPage() {
             <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-orange-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10 group">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  <Shield className="h-6 w-6 text-white" />
+                  <Users className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-white text-lg">VCs & Analysts</CardTitle>
+                <CardTitle className="text-white text-lg">HR Tech AI</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-300">
-                  Evaluate product-market fit signals and investment opportunities with real data
+                  Summarize anonymized employee surveys and workplace feedback.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gray-900/40 backdrop-blur-sm border-gray-800 hover:border-yellow-500/30 transition-all duration-300 hover:shadow-lg hover:shadow-yellow-500/10 group">
+              <CardHeader>
+                <div className="w-12 h-12 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <TrendingUp className="h-6 w-6 text-white" />
+                </div>
+                <CardTitle className="text-white text-lg">Product UX LLM</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-gray-300">
+                  Analyze issue logs and support tickets to improve product experience.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -364,12 +386,37 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Why This Works */}
+      <section className="relative py-24 bg-gray-950/30">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold text-white mb-6">Why This Works</h2>
+          <div className="grid md:grid-cols-4 gap-8 text-left max-w-4xl mx-auto">
+            <div>
+              <h3 className="font-semibold text-cyan-400 mb-2">Composable</h3>
+              <p className="text-gray-300">Plug-and-play RAG APIs and open data architecture.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-green-400 mb-2">Sustainable</h3>
+              <p className="text-gray-300">Contributors earn directly from data usage—no ads or subscriptions.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-purple-400 mb-2">Agent-Native</h3>
+              <p className="text-gray-300">Built for LLMs and AI agents to query and pay autonomously.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-blue-400 mb-2">Transparent</h3>
+              <p className="text-gray-300">Real-time dashboards show contributors their data's impact and earnings.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="relative py-24 bg-gradient-to-br from-cyan-600/10 via-blue-600/10 to-purple-600/10">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-5xl font-bold text-white mb-8">Ready to Transform Market Research?</h2>
+          <h2 className="text-5xl font-bold text-white mb-8">Ready to Join the Agent-Native Data Marketplace?</h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Join thousands of contributors earning from their insights and AI agents accessing real-time market data.
+            Earn from your data or empower your AI agents with real-time, composable datasets. Join a transparent, sustainable ecosystem for LLM-powered applications.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button
@@ -377,14 +424,14 @@ export default function LandingPage() {
               onClick={handleStartContributing}
               className="text-lg px-10 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white border-0 shadow-lg shadow-cyan-500/25"
             >
-              Start Contributing Today
+              Start Earning from Your Data
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="text-lg px-10 py-4 border-2 border-gray-700 text-white bg-gray-900/50 hover:bg-gray-800/90 hover:border-gray-600 hover:text-white transition-colors"
             >
-              Explore API Access
+              Access Agent Data API
             </Button>
           </div>
         </div>
@@ -404,7 +451,7 @@ export default function LandingPage() {
                 </span>
               </div>
               <p className="text-gray-400">
-                Decentralized market research platform connecting contributors with AI agents.
+                Monetized RAG platform connecting contributors with AI agents.
               </p>
             </div>
             <div>
@@ -469,7 +516,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 DataGram. All rights reserved.</p>
+            <p>&copy; 2025 DataGram. All rights reserved.</p>
           </div>
         </div>
       </footer>
