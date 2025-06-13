@@ -223,7 +223,7 @@ export default function LandingPage() {
           <div className="max-w-5xl mx-auto">
             <div className="p-8 rounded-3xl bg-gray-900/40 backdrop-blur-sm border border-gray-800">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gkX4QgomMFSDcyvJLkBSFDbg7VRnjB.png"
+                src="https://ik.imagekit.io/j3ek4z0iqu/Screenshot%202025-06-12%20at%206.24.16%E2%80%AFPM.png?updatedAt=1749777866301"
                 alt="Platform Architecture Diagram showing the flow between Market Research Agents, RAGs processing system, Product Reviews, Tagging & Indexing, Dashboard, and Users with payment flows"
                 className="w-full h-auto rounded-2xl"
               />
